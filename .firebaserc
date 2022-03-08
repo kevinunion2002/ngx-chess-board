@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "chess-app-1d85f": {
+      "hosting": {
+        "chess-board": [
+          "chess-app-1d85f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "chess-app-1d85f"
+  }
+}

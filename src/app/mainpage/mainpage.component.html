@@ -1,0 +1,18 @@
+<div>By: Zhipei Luo</div>
+<div >
+    <iframe id="iframe1" style="margin-right:50px ;min-height:410px;min-width: 410px;"
+    [src]="winUrl"
+ 
+     allowfullscreen
+    ></iframe>
+    <iframe id="iframe2" style="min-height:410px;min-width: 410px;"
+    [src]="winUrl1"
+    
+     allowfullscreen
+    ></iframe>
+    <div *ngIf="popup" style="position: absolute;z-index: 20;right: 20%;top:30%;background-color: aqua;width: 700px;">
+       <h1>Checkmate</h1>
+       <button (click)="reset()">Create New Game</button>
+    </div>
+    </div>
+    
